@@ -1,17 +1,10 @@
 // Type definitions for ProductList Test Automation Framework
 
 declare namespace myLib {
-
-    // Our global 'Customer' type/interface
-    interface Customer Details {
+    
+    //Our global 'Product' type/interface
+    interface Customer {
         name: string;
         address: string;
-        vehicle Details?: string; {
-            make: string;
-            model: string;
-            year: number;
-
-        }
-        
     }
 }
